@@ -1,0 +1,41 @@
+#container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo{
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#navbar{
+    float: left;
+    background-color: lightgrey;
+    width: 120px;
+    min-height: 580px;
+    padding: 10px;
+}
+
+#content{
+    float: left;
+    padding: 20px;
+    width: 600px;
+}
+
+#ad{
+    float: right;
+    width: 160px;
+    height: 600px;
+}
+
+#footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
