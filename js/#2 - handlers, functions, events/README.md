@@ -1,0 +1,1 @@
+Some exercises conected with handlers, functions and events.
