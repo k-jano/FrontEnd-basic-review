@@ -1,0 +1,1 @@
+JS Logos Slider, **JQuerry** library used. 
