@@ -1,0 +1,1 @@
+Website about Newest Games. Focused only on main structure, and **navbar** (sticky).

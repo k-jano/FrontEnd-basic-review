@@ -1,0 +1,112 @@
+body{
+    background-color: #303030;
+    color: whitesmoke;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+#wrapper{
+    width: 100%;
+}
+
+#header{
+    padding: 40px 0;
+}
+
+#logo{
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 48px;
+}
+
+#logoFirst{
+    color: rgb(218, 15, 15);
+}
+
+#inscription{
+    float: left;
+}
+
+#pad{
+    height: 70px;
+    widows: 70px;
+    float: left;
+    position: relative;
+    top: 3px;
+}
+
+#nav{
+    width: 100%;
+    height: 40px;
+    padding: 10px 0;
+    background-color: rgb(218, 15, 15);
+    text-align: center;
+    border-top: 2px solid rgb(153, 4, 4);
+    border-bottom: 2px solid rgb(153, 4, 4);
+}
+
+#content{
+    width: 1000px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+#socials{
+    width: 100%;
+    text-align: center;
+    background-color: #292929;
+}
+
+#socialDivs{
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 23px;
+    height: 54px;
+    line-height: 54px;
+}
+
+.itemFb{
+    float: left;
+    width: 250px;
+}
+
+.itemFb:hover{
+    background-color: #4668b3;
+}
+
+.itemYt{
+    float: left;
+    width: 250px;
+}
+
+.itemYt:hover{
+    background-color: #d94348;
+}
+
+.itemG{
+    float: left;
+    width: 250px;
+}
+
+.itemG:hover{
+    background-color: #d95333;
+}
+
+.itemTw{
+    float: left;
+    width: 250px;
+}
+
+.itemTw:hover{
+    background-color: #3095d3;
+}
+
+#footer{
+    text-align: center;
+    background-color: #222222;
+    padding: 10px;
+}
+
