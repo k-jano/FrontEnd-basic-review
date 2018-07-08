@@ -1,0 +1,12 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule adam-smith-portfolio index.html
+RewriteRule about-me whoamI.html
+RewriteRule last-and-recent-projects projects.html
+RewriteRule education-and-cv education.html
+RewriteRule contact contact.html
