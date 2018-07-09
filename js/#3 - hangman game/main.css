@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 27px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#password{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 50px;
+    min-height: 60px;
+}
+
+#draw{
+    float: left;
+    text-align: center;
+    width: 600px;
+    min-height: 280px;
+}
+
+#keyboard{
+    float: left;
+    text-align: center;
+    width: 600px;
+    min-height: 280px;
+    margin: 0 auto;
+}
+
+#keyboard_in{
+    margin: 0 auto;
+    width: 258px;
+    padding-top: 12px;
+}
+
+.letter{
+    width: 25px;
+    font-size: 30px;
+    border: 2px solid lightgrey;
+    color: lightgrey;
+    padding: 2px;
+    text-align: center;
+    margin: 5px;
+    float: left;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.letter:hover{
+    background-color: #222222;
+    border: 2px solid white;
+    color: white;
+}
+
+.reset{
+    color: greenyellow;
+    cursor: pointer;
+    font-size: 48px;
+    border: 2px solid greenyellow;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.reset:hover{
+    color: black;
+    border: 2px solid black;
+    background-color: greenyellow;
+}
+
+.reset2{
+    color: red;
+    cursor: pointer;
+    font-size: 48px;
+    border: 2px solid red;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.reset2:hover{
+    color: black;
+    border: 2px solid black;
+    background-color: red;
+}

@@ -1,0 +1,1 @@
+Hangman game wrote in JS. Used some **wav** files.
