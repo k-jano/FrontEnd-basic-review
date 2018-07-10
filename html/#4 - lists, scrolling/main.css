@@ -31,5 +31,62 @@ body{
 }
 
 #list{
-    width: 1180px;
+    width: 1080px;
+    padding-left: 100px;
+}
+
+ol > li{
+    font-weight: 700;
+    font-size:  22px;
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+ol > li > ul{
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ol > li > ul > li{
+    font-weight:400;
+    font-size: 20px;
+    text-transform: none;
+    letter-spacing: 0px; 
+    margin-top: 1px;
+}
+
+ol > li > ul > li:before{
+    color: red;
+    content: "♦";
+    margin-right: 5px;
+}
+
+.slide{
+    padding: 20px 40px;
+    text-align: justify;
+}
+
+.slideP{
+    margin-top: 120px;
+    padding: 20px 40px;
+    text-align: justify;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+a:hover{
+    color: lightgray;
+    text-decoration: underline;
 }

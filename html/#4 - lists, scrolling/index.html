@@ -6,14 +6,191 @@
     <title>Some lists exercises</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet"> 
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="logo"> Lecture #1: Lorem Ipsum</div>
     <div id="container">
-        <div id="list"></div>
+        <div id="list">
+            <ol>
+                <li>
+                    <a id="link1" href="#">Paragraph 1</a>
+                    <ul>
+                        <li>Thema 1.1</li>
+                        <li>Thema 1.2</li>
+                        <li>Thema 1.3</li>
+                        <li>Thema 1.4</li>
+                        <li>Thema 1.5</li>
+                    </ul>
+                </li>
+                <li>
+                    Paragraph 2
+                    <ul>
+                        <li>Thema 2.1</li>
+                        <li>Thema 2.2</li>
+                        <li>Thema 2.3</li>
+                        <li>Thema 2.4</li>
+                        <li>Thema 2.5</li>
+                    </ul>
+                </li>
+                <li>
+                    Paragraph 3
+                    <ul>
+                        <li>Thema 3.1</li>
+                        <li>Thema 3.2</li>
+                        <li>Thema 3.3</li>
+                        <li>Thema 3.4</li>
+                        <li>Thema 3.5</li>
+                    </ul>
+                </li>
+                <li>
+                    Paragraph 4
+                    <ul>
+                        <li>Thema 4.1</li>
+                        <li>Thema 4.2</li>
+                        <li>Thema 4.3</li>
+                        <li>Thema 4.4</li>
+                        <li>Thema 4.5</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+    
+        <div class="slideP">
+            <span id="para1"><h1 id="para12">Paragraph 1</h1></span>
+            
+            <br/>
+            <h2>Thema 1.1</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 1.2</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 1.3</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 1.4</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 1.5</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slideP">
+            <h1>Paragraph 2</h1>
+            <br/>
+            <h2>Thema 2.1</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 2.2</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 2.3</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 2.4</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 2.5</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slideP">
+            <h1>Paragraph 3</h1>
+            <br/>
+            <h2>Thema 3.1</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 3.2</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 3.3</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 3.4</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 3.5</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slideP">
+            <h1>Paragraph 4</h1>
+            <br/>
+            <h2>Thema 4.1</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 4.2</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 4.3</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 4.4</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
+        <div class="slide">
+            <h2>Thema 4.5</h2>
+            <br/>
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel tincidunt quam, vitae accumsan felis. Nunc id vehicula orci, sit amet consequat velit. Nullam ullamcorper lorem nec sem accumsan facilisis. In eros ligula, gravida ac laoreet nec, fermentum et purus. Cras enim sapien, rhoncus eget tempus vel, sollicitudin sodales dolor. Nullam massa felis, suscipit ac volutpat non, aliquet vitae velit. Cras sit amet tempus ligula. 
+        </div>
     </div>
     <div id="footer"></div>
+    <script src="main.js"></script>
 </body>
 </html>
