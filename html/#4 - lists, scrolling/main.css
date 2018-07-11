@@ -90,3 +90,13 @@ a:hover{
     color: lightgray;
     text-decoration: underline;
 }
+
+#scrollUp{
+    /*position: absolute;*/
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: none;
+}
