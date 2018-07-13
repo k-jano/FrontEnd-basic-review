@@ -1,0 +1,1 @@
+Some blank elements stylization.
